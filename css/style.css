@@ -1,0 +1,145 @@
+@import url(./fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Epilogue";
+  height: 100vh;
+  margin-bottom: 130px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  padding-left: 4.1rem;
+  padding-right: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.header {
+}
+
+.sitenav {
+  display: flex;
+  gap: 4rem;
+  padding-top: 3.2rem;
+  align-items: center;
+}
+.site-logo {
+}
+.header-list {
+  display: flex;
+  gap: 4rem;
+}
+.header-item {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #686868;
+  &:hover {
+    cursor: pointer;
+    color: #151515;
+  }
+  &:active {
+    opacity: 40%;
+  }
+}
+.btn {
+  margin-left: 65.3rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #686868;
+  &:hover {
+    cursor: pointer;
+    color: #151515;
+    border-color: #151515;
+  }
+  &:active {
+    opacity: 40%;
+  }
+}
+
+.br {
+  padding: 1.3rem 2.3rem;
+  border: 1.5px solid #686868;
+  border-radius: 1.4rem;
+}
+
+.main__t {
+  display: flex;
+  gap: 12.5rem;
+  margin-top: 18.4rem;
+  margin-left: 17.5rem;
+}
+.main-heading {
+  width: 520px;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 1;
+  letter-spacing: -1.11px;
+  color: #151515;
+}
+.main-paragraph {
+  width: 425px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #686868;
+  margin-top: 4.8rem;
+  margin-bottom: 5.1rem;
+}
+.black-btn {
+  width: 163px;
+  background-color: #151515;
+  border-radius: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.3rem;
+  padding-left: 3.1rem;
+  padding-right: 2.8rem;
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    border: 1px solid #151515;
+    background-color: transparent;
+    color: #151515;
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 40%;
+  }
+}
+
+.site-img {
+  margin-top: -104px;
+}
+
+.databiz {
+  margin-top: 12.8rem;
+}
